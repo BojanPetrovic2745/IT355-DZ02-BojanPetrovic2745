@@ -1,0 +1,9 @@
+servisi\PasServis.class
+modeli\Kokoska.class
+konfiguracija\Konfiguracija.class
+interfejs\Zivotinja.class
+modeli\Ovca.class
+modeli\Pas.class
+main\Main.class
+servisi\OvcaServis.class
+servisi\KokoskaServis.class

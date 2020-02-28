@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    
+    <bean id="ovca" class="modeli.Ovca"/> 
+    <bean id="pas" class="modeli.Pas"/>
+    <bean id="kokoska" class="modeli.Kokoska"/>
+    
+    <bean id="ovcaServis" class="servisi.OvcaServis">
+        <constructor-arg ref="ovca" />
+    </bean>
+    
+    <bean id="pasServis" class="servisi.PasServis">
+        <constructor-arg ref="pas"/>
+    </bean>
+    
+    <bean id="kokoskaServis" class="servisi.KokoskaServis">
+        <constructor-arg ref="kokoska"/>
+    </bean>
+    
+</beans>
